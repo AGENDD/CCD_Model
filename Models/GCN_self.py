@@ -18,7 +18,6 @@ class GCN_self(torch.nn.Module):
                 'pos_item': torch.tensor([1, 2, 3]),  # 正样本物品索引
                 'neg_item': torch.tensor([3, 1, 0])   # 负样本物品索引
             }
-
         '''
         user = mini_batch['user']
         pos_item = mini_batch['pos_item']
